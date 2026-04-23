@@ -109,3 +109,59 @@ build
 - The backend startup already calls `Base.metadata.create_all(...)`, but the pre-deploy bootstrap makes the first deploy more reliable.
 - Demo seed users and dummy workflow data do not run in production when `DEBUG=false` and `ENVIRONMENT=production`.
 - Render Postgres private connection is wired automatically through the Blueprint using `fromDatabase.connectionString`.
+
+## One-Time Production Bootstrap (Users + Starter Requests)
+
+If login returns `401 Invalid email or password` right after deploy, your production DB likely has no demo users yet.
+
+### If Render Shell is unavailable (free instance)
+
+Use deploy-time bootstrap toggle:
+
+1. In backend service env vars, set:
+```env
+RUN_BOOTSTRAP_ON_DEPLOY=true
+BOOTSTRAP_USER_PASSWORD=YourStrongPassword@123
+```
+2. Trigger a manual deploy.
+3. After deploy succeeds, set:
+```env
+RUN_BOOTSTRAP_ON_DEPLOY=false
+```
+
+The `render.yaml` pre-deploy command will run schema prep and then run bootstrap only when `RUN_BOOTSTRAP_ON_DEPLOY=true`.
+
+### If Render Shell is available
+
+Run this once from your Render backend service shell:
+
+```bash
+cd /opt/render/project/src/backend
+python scripts/bootstrap_production_data.py --yes
+```
+
+What it creates/updates (idempotent):
+- `admin@blooddonation.com`
+- `donor@blooddonation.com`
+- `recipient@blooddonation.com`
+- donor/recipient profile records
+- donor capability flags
+- starter `OPEN` requests that are visible in donor queues
+
+Default password for all bootstrap users:
+
+```text
+SecurePass@123
+```
+
+To set a custom password instead:
+
+```bash
+python scripts/bootstrap_production_data.py --yes --password "YourStrongPassword@123"
+```
+
+To bootstrap only users (no starter requests):
+
+```bash
+python scripts/bootstrap_production_data.py --yes --without-requests
+```

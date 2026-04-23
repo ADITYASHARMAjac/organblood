@@ -12,7 +12,11 @@ services:
     region: singapore
     rootDir: backend
     buildCommand: pip install -r requirements.txt
-    preDeployCommand: python scripts/prepare_railway_db.py
+    preDeployCommand: |
+      python scripts/prepare_railway_db.py
+      if [ "${RUN_BOOTSTRAP_ON_DEPLOY:-false}" = "true" ]; then
+        python scripts/bootstrap_production_data.py --yes --password "${BOOTSTRAP_USER_PASSWORD:-SecurePass@123}"
+      fi
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
     envVars:
@@ -61,6 +65,10 @@ services:
       - key: CELERY_BROKER_URL
         sync: false
       - key: CELERY_RESULT_BACKEND
+        sync: false
+      - key: RUN_BOOTSTRAP_ON_DEPLOY
+        sync: false
+      - key: BOOTSTRAP_USER_PASSWORD
         sync: false
 
   - name: donation-portal-web
