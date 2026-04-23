@@ -39,6 +39,7 @@ class Settings(BaseSettings):
     APP_VERSION: str = "1.0.0"
     DEBUG: bool = _env_bool("DEBUG", False)
     ENVIRONMENT: str = os.getenv("ENVIRONMENT", "development")
+    DEMO_BOOTSTRAP_ENABLED: bool = _env_bool("DEMO_BOOTSTRAP_ENABLED", False)
     
     # API
     API_V1_STR: str = "/api/v1"

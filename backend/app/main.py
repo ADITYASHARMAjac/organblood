@@ -34,10 +34,19 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
+def should_seed_demo_data() -> bool:
+    """Allow demo bootstrap in local development and opt-in hosted environments."""
+    environment = (settings.ENVIRONMENT or "").lower()
+    return bool(
+        settings.DEBUG
+        or settings.DEMO_BOOTSTRAP_ENABLED
+        or environment in {"development", "dev", "local"}
+    )
+
+
 def seed_default_auth_users() -> None:
     """Seed baseline users in development so local login works out of the box."""
-    environment = (settings.ENVIRONMENT or "").lower()
-    if not settings.DEBUG and environment not in {"development", "dev", "local"}:
+    if not should_seed_demo_data():
         return
 
     default_users = [
@@ -99,8 +108,7 @@ def seed_default_auth_users() -> None:
 
 def seed_dummy_workflow_data() -> None:
     """Seed recipient and request data so full user->admin workflow can be tested quickly."""
-    environment = (settings.ENVIRONMENT or "").lower()
-    if not settings.DEBUG and environment not in {"development", "dev", "local"}:
+    if not should_seed_demo_data():
         return
 
     db = SessionLocal()
@@ -489,8 +497,21 @@ def create_app() -> FastAPI:
     def startup_tasks() -> None:
         # Ensure schema exists for local development.
         Base.metadata.create_all(bind=engine)
-        seed_default_auth_users()
-        seed_dummy_workflow_data()
+        if should_seed_demo_data():
+            seed_default_auth_users()
+            seed_dummy_workflow_data()
+            logger.info(
+                "Demo bootstrap ensured on startup.",
+                extra={
+                    "environment": settings.ENVIRONMENT,
+                    "demo_bootstrap_enabled": settings.DEMO_BOOTSTRAP_ENABLED,
+                },
+            )
+        else:
+            logger.info(
+                "Demo bootstrap skipped on startup.",
+                extra={"environment": settings.ENVIRONMENT},
+            )
 
     app.include_router(api_router)
     
