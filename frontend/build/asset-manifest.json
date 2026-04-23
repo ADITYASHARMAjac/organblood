@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f887501b.css",
+    "main.js": "/static/js/main.c34d8d35.js",
+    "static/media/hero-network.svg": "/static/media/hero-network.8f39ff37f7fb49d38889c98ad494af24.svg",
+    "static/media/about-operations.svg": "/static/media/about-operations.8a350f2775c785a2019fa7e5be3fceb1.svg",
+    "static/media/eligibility-check.svg": "/static/media/eligibility-check.47f202af903001a32649df54fc573c4e.svg",
+    "index.html": "/index.html",
+    "main.f887501b.css.map": "/static/css/main.f887501b.css.map",
+    "main.c34d8d35.js.map": "/static/js/main.c34d8d35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f887501b.css",
+    "static/js/main.c34d8d35.js"
+  ]
+}

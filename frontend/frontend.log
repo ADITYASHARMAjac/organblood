@@ -1,0 +1,993 @@
+
+> donation-portal-frontend@1.0.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view donation-portal-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.0.112:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+Proxy error: Could not proxy request /favicon.ico from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\LandingPage.jsx
+Syntax error: Unterminated JSX contents. (30:16) (30:16)
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/LandingPage.jsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\est full stack\frontend\src\pages\LandingPage.jsx: Unterminated JSX contents. (30:16)
+
+[0m [90m 28 |[39m           className[33m=[39m[32m"hero-visual"[39m
+ [90m 29 |[39m         [33m/[39m[33m>[39m
+[31m[1m>[22m[39m[90m 30 |[39m       [33m<[39m[33m/[39m[33msection[39m[33m>[39m
+ [90m    |[39m                 [31m[1m^[22m[39m
+ [90m 31 |[39m   )[33m;[39m
+ [90m 32 |[39m }
+ [90m 33 |[39m[0m
+    at constructor (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+    at FlowParserMixin.raise (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+    at FlowParserMixin.jsxReadToken (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:4448:20)
+    at FlowParserMixin.getTokenFromCode (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:4774:12)
+    at FlowParserMixin.getTokenFromCode (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:3197:13)
+    at FlowParserMixin.nextToken (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:5782:10)
+    at FlowParserMixin.next (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:5692:10)
+    at FlowParserMixin.eat (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:5696:12)
+    at FlowParserMixin.expect (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:6898:15)
+    at FlowParserMixin.jsxParseClosingElementAt (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:4680:10)
+    at FlowParserMixin.jsxParseElementAt (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:4695:37)
+    at FlowParserMixin.jsxParseElementAt (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+    at FlowParserMixin.jsxParseElement (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:4749:17)
+    at FlowParserMixin.parseExprAtom (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:4759:19)
+    at FlowParserMixin.parseExprSubscripts (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+    at FlowParserMixin.parseUpdate (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+    at FlowParserMixin.parseExprOps (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+    at C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:3498:39
+    at FlowParserMixin.tryParse (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:6907:20)
+    at FlowParserMixin.parseMaybeAssign (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:3498:18)
+    at C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10800:39
+    at FlowParserMixin.allowInAnd (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:12426:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10800:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:12493:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:11675:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:3591:18)
+    at FlowParserMixin.parseExprAtom (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:11331:23)
+    at FlowParserMixin.parseExprAtom (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:4764:20)
+    at FlowParserMixin.parseExprSubscripts (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+    at FlowParserMixin.parseUpdate (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+    at FlowParserMixin.parseMaybeUnary (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+    at FlowParserMixin.parseExprOps (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+    at FlowParserMixin.parseMaybeConditional (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+    at FlowParserMixin.parseMaybeAssign (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+    at FlowParserMixin.parseMaybeAssign (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:3549:18)
+    at FlowParserMixin.parseExpressionBase (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10784:23)
+    at C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10780:39
+    at FlowParserMixin.allowInAnd (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:12421:16)
+    at FlowParserMixin.parseExpression (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:10780:17)
+    at FlowParserMixin.parseReturnStatement (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:13142:28)
+    at FlowParserMixin.parseStatementContent (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:12798:21)
+    at FlowParserMixin.parseStatementLike (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+    at FlowParserMixin.parseStatementLike (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:2918:24)
+    at FlowParserMixin.parseStatementListItem (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:12747:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (C:\est full stack\frontend\node_modules\@babel\parser\lib\index.js:13316:61)
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\LandingPage.jsx
+  Line 30:16:  Parsing [1m[31merror[39m[22m[1m: Unterminated JSX contents. (30:16)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m and [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/AuthPage' in 'C:\est full stack\frontend\src'
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m21:0-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/AuthPage' in 'C:\est full stack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Failed to compile.
+
+Module not found: Error: Can't resolve './pages/LandingPage' in 'C:\est full stack\frontend\src'
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m16:0-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './pages/LandingPage' in 'C:\est full stack\frontend\src'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 170:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 216:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 536:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 555:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 573:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 551:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 570:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 588:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 551:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 570:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 588:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 558:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 577:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 595:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 559:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 578:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 596:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 559:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 578:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 596:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 559:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 578:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 596:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 559:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 578:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 596:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 559:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 578:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 596:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 559:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 578:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 596:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 559:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 578:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 596:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\AdminPage.jsx
+  Line 53:10:  'notifications' is assigned a value but never used  no-unused-vars
+
+src\pages\DonorPage.jsx
+  Line 185:10:  'getDonationHistoryStatus' is defined but never used  no-unused-vars
+  Line 231:10:  'topMatches' is assigned a value but never used       no-unused-vars
+  Line 559:18:  'toggleAvailability' is defined but never used        no-unused-vars
+  Line 578:12:  'captureLiveLocation' is defined but never used       no-unused-vars
+  Line 596:18:  'saveLocationOnly' is defined but never used          no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Proxy error: Could not proxy request /api/v1/auth/me from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me/nearby-requests?radius_km=50 from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/auth/me from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me/nearby-requests?radius_km=50 from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me/recipient-requests?radius_km=50 from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me/nearby-requests?radius_km=50 from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me/top-matches?limit=100&max_distance_km=500 from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me/recipient-requests?radius_km=50 from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me/nearby-requests?radius_km=50 from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me/nearby-requests?radius_km=50 from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/donors/me/appointments?limit=200 from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /api/v1/auth/login from localhost:3000 to http://localhost:8000/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+

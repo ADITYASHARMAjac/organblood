@@ -1,0 +1,30 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="26" fill="url(#paint0_linear)"/>
+  <rect x="120" y="130" width="960" height="500" rx="22" fill="#FFFFFF" stroke="#D5E5F2" stroke-width="4"/>
+
+  <rect x="180" y="190" width="240" height="170" rx="16" fill="#ECF6FF"/>
+  <text x="300" y="258" text-anchor="middle" fill="#1B3A57" font-family="Arial, sans-serif" font-size="24" font-weight="700">Verification</text>
+  <text x="300" y="292" text-anchor="middle" fill="#3D5870" font-family="Arial, sans-serif" font-size="15">Identity and compliance checks</text>
+
+  <rect x="480" y="190" width="240" height="170" rx="16" fill="#EAFBF8"/>
+  <text x="600" y="258" text-anchor="middle" fill="#1B3A57" font-family="Arial, sans-serif" font-size="24" font-weight="700">Matching</text>
+  <text x="600" y="292" text-anchor="middle" fill="#3D5870" font-family="Arial, sans-serif" font-size="15">Urgent donor-recipient pairing</text>
+
+  <rect x="780" y="190" width="240" height="170" rx="16" fill="#FFF1EA"/>
+  <text x="900" y="258" text-anchor="middle" fill="#1B3A57" font-family="Arial, sans-serif" font-size="24" font-weight="700">Governance</text>
+  <text x="900" y="292" text-anchor="middle" fill="#3D5870" font-family="Arial, sans-serif" font-size="15">Admin decisions and analytics</text>
+
+  <path d="M300 376L300 460L600 460L600 376" stroke="#1E4B6E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M900 376L900 460L600 460" stroke="#1E4B6E" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="500" y="480" width="200" height="98" rx="16" fill="#0E8F8A"/>
+  <text x="600" y="535" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">24x7 CareFlow</text>
+
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="1200" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="0.48" stop-color="#FFF7F1"/>
+      <stop offset="1" stop-color="#F3FFF9"/>
+    </linearGradient>
+  </defs>
+</svg>
