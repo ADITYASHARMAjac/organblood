@@ -75,6 +75,11 @@ async function parsePayload(response) {
   }
 }
 
+function isHtmlPayloadResponse(response, payload) {
+  const contentType = response.headers.get('content-type') || '';
+  return !payload && /text\/html|application\/xhtml\+xml/i.test(contentType);
+}
+
 function isRecoverableHttpStatus(statusCode) {
   return statusCode === 404 || statusCode === 502 || statusCode === 503 || statusCode === 504;
 }
@@ -213,6 +218,15 @@ export async function apiRequest(path, options = {}) {
         const details = payload?.error?.details || null;
         const error = new Error(message);
         error.details = details;
+        error.status = response.status;
+        throw error;
+      }
+
+      if (!payload) {
+        const message = isHtmlPayloadResponse(response, payload)
+          ? 'Received HTML instead of API JSON. Check REACT_APP_API_URL and make sure it points to the backend Render URL without /api/v1.'
+          : 'Backend returned an empty or non-JSON response.';
+        const error = new Error(message);
         error.status = response.status;
         throw error;
       }

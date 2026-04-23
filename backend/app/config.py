@@ -77,6 +77,7 @@ class Settings(BaseSettings):
             "https://blooddonation.com",
         ],
     )
+    CORS_ORIGIN_REGEX: str = os.getenv("CORS_ORIGIN_REGEX", "")
     
     # Email Service
     SMTP_SERVER: str = os.getenv("SMTP_SERVER", "smtp.gmail.com")

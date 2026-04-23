@@ -31,6 +31,10 @@ Set these values in Render:
   ```env
   ["https://your-frontend-name.onrender.com"]
   ```
+- Or set:
+  ```env
+  CORS_ORIGIN_REGEX=^https://.*\.onrender\.com$
+  ```
 
 Optional if you use these features:
 

@@ -31,6 +31,20 @@ function getStoredAuth() {
   }
 }
 
+function normalizeAuthResponse(data, actionLabel) {
+  const accessToken = data?.tokens?.access_token;
+  const refreshToken = data?.tokens?.refresh_token;
+  const user = data?.user;
+
+  if (!accessToken || !refreshToken || !user) {
+    throw new Error(
+      `${actionLabel} failed because the frontend did not receive the expected auth payload. Check backend deployment and REACT_APP_API_URL.`
+    );
+  }
+
+  return { accessToken, refreshToken, user };
+}
+
 export function AuthProvider({ children }) {
   const [auth, setAuth] = useState(getStoredAuth);
   const [otp, setOtp] = useState(defaultOtp);
@@ -54,11 +68,12 @@ export function AuthProvider({ children }) {
       method: 'POST',
       body: payload,
     });
+    const { accessToken, refreshToken, user } = normalizeAuthResponse(data, 'Registration');
 
     persistAuth({
-      token: data.tokens.access_token,
-      refreshToken: data.tokens.refresh_token,
-      user: data.user,
+      token: accessToken,
+      refreshToken,
+      user,
     });
 
     setRegisterDraft(payload);
@@ -78,11 +93,12 @@ export function AuthProvider({ children }) {
       method: 'POST',
       body: payload,
     });
+    const { accessToken, refreshToken, user } = normalizeAuthResponse(data, 'Login');
 
     persistAuth({
-      token: data.tokens.access_token,
-      refreshToken: data.tokens.refresh_token,
-      user: data.user,
+      token: accessToken,
+      refreshToken,
+      user,
     });
 
     setFlash({ type: 'success', text: 'Login successful.' });
